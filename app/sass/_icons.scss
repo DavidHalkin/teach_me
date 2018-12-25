@@ -1,0 +1,153 @@
+@font-face {
+	font-family: "Icons";
+	src: url('../fonts/icons_custom/Icons.eot');
+	src: url('../fonts/icons_custom/Icons.eot?#iefix') format('eot'),
+		url('../fonts/icons_custom/Icons.woff2') format('woff2'),
+		url('../fonts/icons_custom/Icons.woff') format('woff'),
+		url('../fonts/icons_custom/Icons.ttf') format('truetype'),
+		url('../fonts/icons_custom/Icons.svg#Icons') format('svg');
+}
+
+@mixin icn-styles {
+	font-family: "Icons";
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	// speak: none; // only necessary if not using the private unicode range (firstGlyph option)
+	text-decoration: none;
+	text-transform: none;
+	line-height: 1;
+}
+
+%icn {
+	@include icn-styles;
+}
+
+@function icn-char($filename) {
+	$char: "";
+
+	@if $filename == arr-right {
+		$char: "\E001";
+	}
+	@if $filename == f1 {
+		$char: "\E002";
+	}
+	@if $filename == f2 {
+		$char: "\E003";
+	}
+	@if $filename == f3 {
+		$char: "\E004";
+	}
+	@if $filename == f4 {
+		$char: "\E005";
+	}
+	@if $filename == f5 {
+		$char: "\E006";
+	}
+	@if $filename == f6 {
+		$char: "\E007";
+	}
+	@if $filename == f7 {
+		$char: "\E008";
+	}
+	@if $filename == facebook {
+		$char: "\E009";
+	}
+	@if $filename == i1 {
+		$char: "\E00A";
+	}
+	@if $filename == i2 {
+		$char: "\E00B";
+	}
+	@if $filename == i3 {
+		$char: "\E00C";
+	}
+	@if $filename == linkedin {
+		$char: "\E00D";
+	}
+	@if $filename == qoutes-1 {
+		$char: "\E00E";
+	}
+	@if $filename == qoutes-2 {
+		$char: "\E00F";
+	}
+	@if $filename == twitter {
+		$char: "\E010";
+	}
+	@if $filename == v {
+		$char: "\E011";
+	}
+	@if $filename == youtube {
+		$char: "\E012";
+	}
+
+	@return $char;
+}
+
+@mixin icn($filename, $insert: before, $extend: true) {
+	&:#{$insert} {
+		@if $extend {
+			@extend %icn;
+		} @else {
+			@include icn-styles;
+		}
+		content: icn-char($filename);
+	}
+}
+
+.icn-arr-right {
+	@include icn(arr-right);
+}
+.icn-f1 {
+	@include icn(f1);
+}
+.icn-f2 {
+	@include icn(f2);
+}
+.icn-f3 {
+	@include icn(f3);
+}
+.icn-f4 {
+	@include icn(f4);
+}
+.icn-f5 {
+	@include icn(f5);
+}
+.icn-f6 {
+	@include icn(f6);
+}
+.icn-f7 {
+	@include icn(f7);
+}
+.icn-facebook {
+	@include icn(facebook);
+}
+.icn-i1 {
+	@include icn(i1);
+}
+.icn-i2 {
+	@include icn(i2);
+}
+.icn-i3 {
+	@include icn(i3);
+}
+.icn-linkedin {
+	@include icn(linkedin);
+}
+.icn-qoutes-1 {
+	@include icn(qoutes-1);
+}
+.icn-qoutes-2 {
+	@include icn(qoutes-2);
+}
+.icn-twitter {
+	@include icn(twitter);
+}
+.icn-v {
+	@include icn(v);
+}
+.icn-youtube {
+	@include icn(youtube);
+}
