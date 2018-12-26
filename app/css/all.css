@@ -91,13 +91,13 @@ h2.styled span:after { content: ''; position: absolute; bottom: 0; left: 0; widt
 
 h2.styled.text-center span:after { left: 50%; -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); transform: translateX(-50%); }
 
-.simplebar-track { background: #b4b3b3; width: 5px !important; -webkit-border-radius: 2px !important; border-radius: 2px !important; }
+.simplebar-track { background: #b4b3b3; width: 5px !important; right: 1px !important; -webkit-border-radius: 2px !important; border-radius: 2px !important; }
 
-.simplebar-scrollbar { width: 7px; opacity: 1 !important; }
+.simplebar-scrollbar { width: 7px; opacity: 1 !important; right: -1px !important; }
 
 .simplebar-scrollbar:before { background: #d10446 !important; opacity: 1 !important; top: 0 !important; bottom: 0 !important; }
 
-.simplebar-track.horizontal { display: none !important; }
+.scroller_y_js .simplebar-track.horizontal { display: none !important; }
 
 @font-face { font-family: "Icons"; src: url("../fonts/icons_custom/Icons.eot"); src: url("../fonts/icons_custom/Icons.eot?#iefix") format("eot"), url("../fonts/icons_custom/Icons.woff2") format("woff2"), url("../fonts/icons_custom/Icons.woff") format("woff"), url("../fonts/icons_custom/Icons.ttf") format("truetype"), url("../fonts/icons_custom/Icons.svg#Icons") format("svg"); }
 
@@ -279,6 +279,6 @@ body, html { height: 100%; }
 
 .list_news h3 a { color: #000; }
 
-.scroller_js { overflow-x: hidden; }
+.section_news { overflow: hidden; }
 
 /*# sourceMappingURL=all.css.map */

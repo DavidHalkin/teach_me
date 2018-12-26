@@ -297,13 +297,13 @@ h2.styled{
 .simplebar-track{
 	background: #b4b3b3;
 	width: 5px !important;
-	// right: 1px !important;
+	right: 1px !important;
 	border-radius: 2px !important;
 }
 .simplebar-scrollbar{
 	width: 7px;
 	opacity: 1 !important;
-	// right:  !important;
+	right: -1px !important;
 	&:before{
 		background: #d10446 !important;
 		opacity: 1 !important;
@@ -311,6 +311,8 @@ h2.styled{
 		bottom: 0 !important;
 	}
 }
-.simplebar-track.horizontal{
-	display: none !important;
+.scroller_y_js{
+	.simplebar-track.horizontal{
+		display: none !important;
+	}
 }
