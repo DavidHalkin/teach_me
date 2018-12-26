@@ -18,7 +18,7 @@
     "jquery": "^3.3.1",
     "bootstrap": "^4.1.2",
     "jcf": "^1.2.3",
-    "scrollyeah": "https://github.com/artpolikarpov/scrollyeah.git",
-    "owl.carousel": "^2.3.4"
+    "owl.carousel": "^2.3.4",
+    "simplebar": "^2.6.1"
   }
 }

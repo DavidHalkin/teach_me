@@ -206,3 +206,43 @@ body,html{
 		}
 	}
 }
+
+.list_news{
+	.prev_post{
+		display: block;
+		width: 100%;
+		img{
+			display: block;
+		}
+	}
+	li{
+		padding-bottom: 30px;
+		padding-right: 15px;
+		&:last-child{
+			padding-bottom: 0;
+		}
+	}
+	img{
+		border-radius: 10px;
+	}
+	h3{
+		margin: 13px 0 0 0;
+		margin: 0;
+		padding-top: 13px;
+		font-size: 18px;
+		line-height: 20px;
+		color: #000;
+		font-weight: bold;
+		display: block;
+		a{
+			color: #000;
+		}
+	}
+}
+.scroller_js{
+	overflow-x: hidden;
+	
+}
+.simplebar-scroll-content{
+
+}

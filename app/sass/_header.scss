@@ -89,12 +89,20 @@
 			padding: 7px 5px;
 			z-index: 2;
 			display: block;
-			@include media-breakpoint-up(xl) {
-				// font-size: calc(18vw / 19.2);
-			}
 			&:hover{
 				text-decoration: none;
-				color: #bc0247;
+				color: #fff;
+				&:before{
+					content: '';
+					width: 100%;
+					height: 100%;
+					height: 60px;
+					position: absolute;
+					bottom: 0;
+					left: 0;
+					z-index: -1;
+					background: linear-gradient(to bottom, rgba(120,1,56,1) 0%,rgba(138,1,59,1) 20%,rgba(191,1,67,1) 69%,rgba(213,1,71,1) 100%);
+				}
 			}
 		}
 	}

@@ -59,7 +59,7 @@ body { font: 15px/18px 'PFDinTextPro', sans-serif; color: #464646; background: #
 
 .jcf-focus, .jcf-focus * { border-color: #bbbbbb !important; -webkit-transition: all 0.3s ease; -o-transition: all 0.3s ease; transition: all 0.3s ease; background: none !important; }
 
-.btn_red { background: url(../images/red_btn.png) no-repeat; background: -webkit-gradient(linear, left top, left bottom, from(#780138), color-stop(20%, #8a013b), color-stop(69%, #bf0143), to(#d50147)); background: -webkit-linear-gradient(top, #780138 0%, #8a013b 20%, #bf0143 69%, #d50147 100%); background: -o-linear-gradient(top, #780138 0%, #8a013b 20%, #bf0143 69%, #d50147 100%); background: linear-gradient(to bottom, #780138 0%, #8a013b 20%, #bf0143 69%, #d50147 100%); -webkit-background-size: content content; background-size: content; color: #fff; -webkit-box-shadow: none !important; box-shadow: none !important; font-size: 13px; font-weight: bold; -webkit-border-radius: 4px !important; border-radius: 4px !important; overflow: hidden; height: 35px; padding: 0 17px; border: 0; -webkit-transition: all 0.3s ease; -o-transition: all 0.3s ease; transition: all 0.3s ease; }
+.btn_red { background: url(../images/red_btn.png) no-repeat; -webkit-background-size: content content; background-size: content; color: #fff; -webkit-box-shadow: none !important; box-shadow: none !important; font-size: 13px; font-weight: bold; -webkit-border-radius: 4px !important; border-radius: 4px !important; overflow: hidden; height: 35px; padding: 0 17px; border: 0; -webkit-transition: all 0.3s ease; -o-transition: all 0.3s ease; transition: all 0.3s ease; }
 
 .btn_red:hover { color: #fff; opacity: .8; }
 
@@ -69,7 +69,7 @@ body { font: 15px/18px 'PFDinTextPro', sans-serif; color: #464646; background: #
 
 @media (max-width: 1199.98px) { .holder_header { height: 60px; padding-top: 4px; } }
 
-.btn_rounded { height: 56px; border: 0; -webkit-border-radius: 27px; border-radius: 27px; color: #fff; font-size: 19px; font-weight: 900; padding: 0 20px; -webkit-box-shadow: none !important; box-shadow: none !important; -webkit-transition: all 0.3s ease; -o-transition: all 0.3s ease; transition: all 0.3s ease; background: -webkit-gradient(linear, left top, left bottom, from(#780138), color-stop(20%, #8a013b), color-stop(69%, #bf0143), to(#d50147)); background: -webkit-linear-gradient(top, #780138 0%, #8a013b 20%, #bf0143 69%, #d50147 100%); background: -o-linear-gradient(top, #780138 0%, #8a013b 20%, #bf0143 69%, #d50147 100%); background: linear-gradient(to bottom, #780138 0%, #8a013b 20%, #bf0143 69%, #d50147 100%); }
+.btn_rounded { height: 56px; border: 0; -webkit-border-radius: 27px; border-radius: 27px; color: #fff; font-size: 19px; line-height: 22px; font-weight: 900; padding: 0 20px; -webkit-box-shadow: none !important; box-shadow: none !important; -webkit-transition: all 0.3s ease; -o-transition: all 0.3s ease; transition: all 0.3s ease; background: -webkit-gradient(linear, left top, left bottom, from(#780138), color-stop(20%, #8a013b), color-stop(69%, #bf0143), to(#d50147)); background: -webkit-linear-gradient(top, #780138 0%, #8a013b 20%, #bf0143 69%, #d50147 100%); background: -o-linear-gradient(top, #780138 0%, #8a013b 20%, #bf0143 69%, #d50147 100%); background: linear-gradient(to bottom, #780138 0%, #8a013b 20%, #bf0143 69%, #d50147 100%); background: url(../images/red_btn.png) no-repeat; -webkit-background-size: 100% 100%; background-size: 100% 100%; }
 
 .btn_rounded:hover { color: #fff; opacity: .8; }
 
@@ -90,6 +90,14 @@ h2.styled span { display: inline-block; position: relative; padding-bottom: 23px
 h2.styled span:after { content: ''; position: absolute; bottom: 0; left: 0; width: 75px; height: 3px; background: #393939; }
 
 h2.styled.text-center span:after { left: 50%; -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); transform: translateX(-50%); }
+
+.simplebar-track { background: #b4b3b3; width: 5px !important; -webkit-border-radius: 2px !important; border-radius: 2px !important; }
+
+.simplebar-scrollbar { width: 7px; opacity: 1 !important; }
+
+.simplebar-scrollbar:before { background: #d10446 !important; opacity: 1 !important; top: 0 !important; bottom: 0 !important; }
+
+.simplebar-track.horizontal { display: none !important; }
 
 @font-face { font-family: "Icons"; src: url("../fonts/icons_custom/Icons.eot"); src: url("../fonts/icons_custom/Icons.eot?#iefix") format("eot"), url("../fonts/icons_custom/Icons.woff2") format("woff2"), url("../fonts/icons_custom/Icons.woff") format("woff"), url("../fonts/icons_custom/Icons.ttf") format("truetype"), url("../fonts/icons_custom/Icons.svg#Icons") format("svg"); }
 
@@ -159,7 +167,9 @@ h2.styled.text-center span:after { left: 50%; -webkit-transform: translateX(-50%
 
 .main_nav li a { font-size: 15px; position: relative; color: #020203; font-weight: bold; padding: 7px 5px; z-index: 2; display: block; }
 
-.main_nav li a:hover { text-decoration: none; color: #bc0247; }
+.main_nav li a:hover { text-decoration: none; color: #fff; }
+
+.main_nav li a:hover:before { content: ''; width: 100%; height: 100%; height: 60px; position: absolute; bottom: 0; left: 0; z-index: -1; background: -webkit-gradient(linear, left top, left bottom, from(#780138), color-stop(20%, #8a013b), color-stop(69%, #bf0143), to(#d50147)); background: -webkit-linear-gradient(top, #780138 0%, #8a013b 20%, #bf0143 69%, #d50147 100%); background: -o-linear-gradient(top, #780138 0%, #8a013b 20%, #bf0143 69%, #d50147 100%); background: linear-gradient(to bottom, #780138 0%, #8a013b 20%, #bf0143 69%, #d50147 100%); }
 
 .home_header { background: #f3f1f2; }
 
@@ -254,5 +264,21 @@ body, html { height: 100%; }
 .video_wrapper .video_holder { position: absolute; margin-top: -15px; top: 50%; left: 50%; max-width: 580px; width: 100%; -webkit-transform: translate(-51%, -50%); -ms-transform: translate(-51%, -50%); transform: translate(-51%, -50%); }
 
 @media (max-width: 1199.98px) { .video_wrapper .video_holder { max-width: 480px; } }
+
+.list_news .prev_post { display: block; width: 100%; }
+
+.list_news .prev_post img { display: block; }
+
+.list_news li { padding-bottom: 30px; padding-right: 15px; }
+
+.list_news li:last-child { padding-bottom: 0; }
+
+.list_news img { -webkit-border-radius: 10px; border-radius: 10px; }
+
+.list_news h3 { margin: 13px 0 0 0; margin: 0; padding-top: 13px; font-size: 18px; line-height: 20px; color: #000; font-weight: bold; display: block; }
+
+.list_news h3 a { color: #000; }
+
+.scroller_js { overflow-x: hidden; }
 
 /*# sourceMappingURL=all.css.map */
