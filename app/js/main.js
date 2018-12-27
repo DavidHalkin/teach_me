@@ -8,6 +8,16 @@ $(document).ready(function(){
 	// add custom select  END
 
 
+
+// drop
+    $(".case_js").hover(function() {
+        // $(this).parent().find(".drop_case").fadeIn("fast");
+        $(this).parent().addClass("opened");
+    }, function() {
+        // $(this).parent().find(".drop_case").fadeOut("fast");
+         $(this).parent().removeClass("opened");
+    });
+
     // accordeon
     $(".faq_list_js li:first").addClass("active");
     $(".drop_faq_js:not(:first)").hide();
