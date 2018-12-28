@@ -30,15 +30,22 @@ body{
 	[type="checkbox"]:not(:checked) + label,
 	[type="checkbox"]:checked + label {
 		position: relative;
-		padding-left: 35px;
+		padding-left: 30px;
 		cursor: pointer;
 		margin: 0;
-		font-size: 14px;
-		line-height: 16px;
-		color: #979797;
+		font-size: 17px;
+		line-height: 20px;
+		color: #7a7777;
 		padding-top: 3px;
 		padding-bottom: 3px;
 		padding-right: 10px;
+		a{
+			color: #7a7777;
+			text-decoration: underline;
+			&:hover{
+				text-decoration: none;
+			}
+		}
 	}
 
 	[type="checkbox"]:not(:checked) + label:before,
@@ -46,25 +53,26 @@ body{
 		content: '';
 		position: absolute;
 		left: 0;
-		top: 0;
-		width: 24px;
-		height: 24px;
-		border: 2px solid #eee;
-		border-radius: 2px;
+		top: 3px;
+		width: 16px;
+		height: 16px;
+		border: 1px solid #c2c2c2;
+		border-radius: 0;
+		background: linear-gradient(to bottom, rgba(182,205,226,1) 0%,rgba(199,205,235,1) 62%,rgba(205,202,236,1) 100%)
 	}
 	[type="checkbox"]:not(:checked) + label:before{
-		background: #eee;
+		background: linear-gradient(to bottom, rgba(182,205,226,1) 0%,rgba(199,205,235,1) 62%,rgba(205,202,236,1) 100%)
 	}
 	[type="checkbox"]:not(:checked) + label:after,
 	[type="checkbox"]:checked + label:after {
 		content: '';
 		position: absolute;
 		top: 7px;
-		left: 6px;
+		left: 2px;
 		transition: all .2s;
 		width: 12px;
 		height: 9px;
-		background: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='utf-8'%3F%3E%3Csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' width='12px' height='9px' viewBox='0 0 12 9' enable-background='new 0 0 12 9' xml:space='preserve'%3E%3Cpath d='M5.4,8.9c-0.1,0-0.3,0-0.5-0.1c-0.2,0-0.7-0.4-0.8-0.6L0.5,4.7c-0.1-0.1-0.1-0.4,0-0.5l1.4-1.4 c0.1-0.1,0.4-0.1,0.5,0l2.5,2.5c0.1,0.1,0.4,0.1,0.5,0l4-5C9.5,0.1,9.8,0,9.9,0.2l1.5,1.2c0.2,0.1,0.2,0.4,0.1,0.5l-5,6.2 C6.4,8.3,6.2,8.5,6.1,8.7C6.1,8.7,5.8,8.9,5.4,8.9C5.4,8.9,5.4,8.9,5.4,8.9z' fill='%236eb151'/%3E%3C/svg%3E ") no-repeat;
+		background: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='utf-8'%3F%3E%3Csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' width='12px' height='9px' viewBox='0 0 12 9' enable-background='new 0 0 12 9' xml:space='preserve'%3E%3Cpath d='M5.4,8.9c-0.1,0-0.3,0-0.5-0.1c-0.2,0-0.7-0.4-0.8-0.6L0.5,4.7c-0.1-0.1-0.1-0.4,0-0.5l1.4-1.4 c0.1-0.1,0.4-0.1,0.5,0l2.5,2.5c0.1,0.1,0.4,0.1,0.5,0l4-5C9.5,0.1,9.8,0,9.9,0.2l1.5,1.2c0.2,0.1,0.2,0.4,0.1,0.5l-5,6.2 C6.4,8.3,6.2,8.5,6.1,8.7C6.1,8.7,5.8,8.9,5.4,8.9C5.4,8.9,5.4,8.9,5.4,8.9z' fill='%23cd0146'/%3E%3C/svg%3E ") no-repeat;
 	}
 
 	[type="checkbox"]:not(:checked) + label:after {
@@ -89,6 +97,9 @@ body{
 		color: #aaa;
 	}
 }
+select{
+	width: 100%;
+}
 .custom_select{
 	.jcf-select{
 		display: block;
@@ -97,25 +108,31 @@ body{
 	}
 }
 .jcf-select{
-	background: #eee;
-	border-color: #eee;
-	border-radius: 3px;
+	background: #fff;
+	border-color: #a3a3a3;
+	border-radius: 9px;
 	color: #0a3256;
-	height: 52px;
+	height: 46px;
 	margin-bottom: 0;
 	cursor: pointer !important;
 	position: relative;
+	display: block;
+	.jcf-option-hideme {
+		font-size: 13px !important;
+		line-height: 44px !important;
+		color: #7a7777;
+	}
 	.jcf-select-text{
 		font-size: 16px;
-		line-height: 50px;
+		line-height: 44px;
 		position: relative;
-		margin-right: 65px;
+		margin-right: 50px;
 		margin-left: 24px;
 		cursor: pointer;
 	}
 	.jcf-select-opener{
 		background: none;
-		width: 65px;
+		width: 50px;
 		height: 100%;
 		position: absolute;
 		top: 0;
@@ -125,14 +142,15 @@ body{
 		&:after{
 			content: "";
 			color: #fff;
-			width: 10px;
-			height: 10px;
-			border-left: 2px solid #1c4162;
-			border-bottom: 2px solid #1c4162;
+			width: 0;
+			height: 0;
+			border-left: 5px solid transparent;
+			border-right: 5px solid transparent;
+			border-top: 5px solid #b5b5b5;
 			position: absolute;
 			top: 50%;
 			left: 50%;
-			transform:translate(-50%,-50%) rotate(-45deg);
+			transform:translate(-50%,-50%);
 		}
 	}
 }
@@ -143,6 +161,7 @@ body{
 }
 .jcf-select-drop{
 	margin-top: 2px !important;
+	z-index: 2000 !important;
 	.jcf-select-drop-content{
 		border: 1px solid rgba(0, 0, 0, 0.15);
 		border-radius: 0.25rem;
@@ -152,6 +171,7 @@ body{
 	ul{
 		padding: 8px 0;
 		li{
+			.jcf-option-hideme {display: none !important;}
 			span{
 				padding: 0.25rem 10px 0.25rem 16px !important;
 				cursor: pointer !important;

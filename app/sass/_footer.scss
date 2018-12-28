@@ -19,6 +19,16 @@
 	}
 }
 .soc_links{
+	&.without_text{
+		li{
+			padding: 0 9px;
+			span{display: none;}
+			i{margin: 0;}
+			a{
+				color: #606163;
+			}
+		}
+	}
 	li{
 		padding: 0 22px;
 	}

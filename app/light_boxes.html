@@ -55,6 +55,7 @@
 											<a href="#" data-toggle="modal" data-target="#send_email" class="btn btn_red text-uppercase d-inline-flex align-items-center">send maile</a>
 
 											<a href="#" data-toggle="modal" data-target="#email_ok" class="btn btn_red text-uppercase d-inline-flex align-items-center">email_ok</a>
+											<a href="#" data-toggle="modal" data-target="#reg" class="btn btn_red text-uppercase d-inline-flex align-items-center">Регистрация </a>
 										</div>
 									</div>
 								</div>
@@ -249,12 +250,88 @@
 				</div>
 			</div>
 		</div>
+		<!-- light_boxes -->
+		<div class="modal fade modal_dialog_custom" id="reg" tabindex="-1" role="dialog" aria-labelledby="reg" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true"><i>&times;</i> <span>Закрыть</span></span>
+						</button>
+					</div>
+					<div class="modal-body pb-3">
+						<div class="pr-0 pr-md-5 pl-0 pl-md-5">
+							<div class="text-center">
+								<h3 class="lb_title  pb-5">Регистрация  </h3>
+								<p class="lead">Присоединится с помощью</p>
+								<ul class="soc_links list-unstyled m-0 d-inline-flex without_text pt-2">
+									<li><a href="#"><i class="icon icon_facebook"></i><span class="text-uppercase">Facebook</span></a></li>
+									<li><a href="#"><i class="icon icon_instagram"></i><span class="text-uppercase">Instagram</span></a></li>
+									<li><a href="#"><i class="icon icon_youtube"></i><span class="text-uppercase">YouTube</span></a></li>
+								</ul>
+								<p class="or_txt lead mt-5 pb-5"><span>Или</span></p>
+							</div>
+							<div class="form-group form_group">
+								<label for="f3_1">Имя спонсора </label>
+								<input type="text" class="form-control form_control" id="f3_1" placeholder="">
+							</div>
+							<div class="form-group form_group">
+								<label for="f3_2">Ваше имя </label>
+								<input type="text" class="form-control form_control" id="f3_2" placeholder="">
+							</div>
+							<div class="form-group form_group">
+								<label for="f3_3">Ваша фамилия </label>
+								<input type="text" class="form-control form_control" id="f3_3" placeholder="">
+							</div>
+							<div class="form-group form_group">
+								<label for="f3_4">Электронная почта </label>
+								<input type="text" class="form-control form_control" id="f3_4" placeholder="">
+							</div>
+							<div class="form-group form_group">
+								<label for="f3_5">Логин </label>
+								<input type="text" class="form-control form_control" id="f3_5" placeholder="">
+							</div>
+							<div class="form-group form_group">
+								<label for="f3_6">Пароль </label>
+								<input type="password" class="form-control form_control" id="f3_6" placeholder="">
+							</div>
+							<div class="form-group form_group">
+								<label for="f3_7">Пароль еще раз </label>
+								<input type="password" class="form-control form_control" id="f3_7" placeholder="">
+							</div>
+							<div class="form-group form_group">
+								<label>Пароль еще раз </label>
+								<select class="present" data-jcf='{"wrapNative": false, "wrapNativeOnMobile": false}'>
+									<option class="hideme">Выберите тему</option>
+									<option  value="v4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus adipisci tempora repellat iste, sapiente natus laudantium modi placeat officiis eos tenetur quod tempore dolorem dignissimos, accusamus inventore quis asperiores porro?</option>
+									<option  value="v5">Bank Card2</option>
+									<option  value="v6">Bank Card</option>
+								</select>
+							</div>
+							<div class="custom_checkbox pl-1">
+								<input type="checkbox" id="checkbox_1">
+								<label for="checkbox_1"><span class="d-block">Я прочитал(а) и согласен(а) с</span>  <a href="#">Соглашение об использовании сайта</a></label>
+							</div>
+							<div class="text-center pt-5 pb-5">
+								<button class="btn btn_red text-uppercase d-inline-flex align-items-center justify-content-center min_w">РЕГИСТРАЦИЯ <i class="arrow_ico"></i></button>
+							</div>
+							<div class="help_txt">
+								<p>*Все поля – обязательны к заполнению.</p>
+								<p>**ВНИМАНИЕ! Указывайте только действующий адрес электронной почты, а имя ифамилию – так, как указанно в Вашем паспорте. В противном случае мы не сможемподтвердить Вашу регистрацию и верифицировать Вас.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 		<script src="js/jquery.min.js"></script>
 		<script src="js/bootstrap.bundle.min.js"></script>
 		<script src="js/jcf.js"></script>
 		<script src="js/jcf.select.js"></script>
 		<script src="js/simplebar.js"></script>
 		<script src="js/jquery.custom-file-input.js"></script>
+		<script src="js/jcf.js"></script>
+		<script src="js/jcf.select.js"></script>
 		<script src="js/main.js"></script>
 	</body>
 </html>

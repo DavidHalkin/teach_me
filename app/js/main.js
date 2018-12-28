@@ -4,7 +4,7 @@ $(document).ready(function(){
    // $('.scroller_js').each(element, new SimpleBar);
 
 	// add custom select
-	// jcf.replaceAll();
+	jcf.replaceAll();
 	// add custom select  END
 
 

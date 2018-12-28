@@ -674,3 +674,38 @@ p.lead{
 		color: #d10146;
 	}
 }
+.or_txt{
+	color: #7a7777;
+	overflow: hidden;
+	span{
+		position: relative;
+		display: inline-block;
+		padding: 0 30px;
+		background: #fff;
+		z-index: 2;
+		&:after,&:before{
+			content: '';
+			height: 1px;
+			width: 9999px;
+			position: absolute;
+			top: 50%;
+			left: 100%;
+			display: block;
+			background: #a6a6a6;
+			transform:translateY(-50%);
+			z-index: 1;
+		}
+		&:before{
+			content: '';
+			left: auto;
+			right: 100%;
+		}
+	}
+}
+.help_txt{
+	p{
+		color: rgba(#7a7777,.55);
+		font-size: 13px;
+		line-height: 15px;
+	}
+}
