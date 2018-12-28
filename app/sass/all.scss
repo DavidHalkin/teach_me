@@ -400,6 +400,11 @@ body,html{
 p.lead{
 	font-size: 17px;
 	line-height: 20px;
+	&.lead_big{
+		color: #313131;
+		font-size: 21px;
+		line-height: 27px;
+	}
 }
 .career_block{
 	h3{
@@ -587,16 +592,18 @@ p.lead{
 	max-width: 100%;
 }
 .modal_dialog_custom{
-	.modal-xl{
+	.modal-xl,.modal-lg{
 		max-width: 1140px !important;
 		width: 100% !important;
 		padding-left: 10px;
 		padding-right: 10px;
 		@include media-breakpoint-down(xs){
-			background: #000;
 			margin-left: 0;
 			margin-right: 0;
 		}
+	}
+	.modal-lg{
+		max-width: 700px !important;
 	}
 	.modal-header{
 		width: 100%;
@@ -622,5 +629,48 @@ p.lead{
 				padding-left: 21px;
 			}
 		}
+	}
+}
+.lb_title {
+	font-size: 25px;
+	line-height: 27px;
+	color: #313131;
+	font-weight: bold;
+	margin: 0;
+}
+.min_w{
+	min-width: 155px;
+	font-size: 15px;
+}
+.forgot_pass,.go_reg{
+	font-size: 17px;
+	font-weight: normal;
+	margin: 0;
+}
+.forgot_pass{
+	margin-top: 45px;
+	a{
+		color: #624e4e;
+	}
+}
+.go_reg{
+	margin-top: 20px;
+	a{
+		color: #a70413;
+	}
+}
+.no_acc{
+	font-size: 13px;
+	font-weight: normal;
+	margin-top: 5px;
+	a{
+		color: rgba(#313131,.61);
+	}
+}
+.status_prev{
+	margin-bottom: 30px;
+	i{
+		font-size: 93px;
+		color: #d10146;
 	}
 }
