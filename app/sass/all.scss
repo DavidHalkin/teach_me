@@ -582,7 +582,22 @@ p.lead{
 		border-radius: 11px;
 	}
 }
+.hlp_column{
+	flex: 0 0 100%;
+	max-width: 100%;
+}
 .modal_dialog_custom{
+	.modal-xl{
+		max-width: 1140px !important;
+		width: 100% !important;
+		padding-left: 10px;
+		padding-right: 10px;
+		@include media-breakpoint-down(xs){
+			background: #000;
+			margin-left: 0;
+			margin-right: 0;
+		}
+	}
 	.modal-header{
 		width: 100%;
 		overflow: hidden;

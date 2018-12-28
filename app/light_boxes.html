@@ -81,15 +81,55 @@
 
 		<!-- light_boxes -->
 		<div class="modal fade modal_dialog_custom" id="contact" tabindex="-1" role="dialog" aria-labelledby="contact" aria-hidden="true">
-			<div class="modal-dialog modal-dialog-centered" role="document">
+			<div class="modal-dialog modal-dialog-centered modal-xl" role="document">
 				<div class="modal-content">
 					<div class="modal-header">
 						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 							<span aria-hidden="true"><i>&times;</i> <span>Закрыть</span></span>
 						</button>
 					</div>
-					<div class="modal-body">
-						...
+					<div class="modal-body pb-5">
+						<div class="row">
+							<div class="col-12 col-lg-3 col-md-4 col_i_txt order-2 order-md-1 mt-4 mt-md-0">
+								<div class="d-flex h-100 flex-wrap">
+									<div class="hlp_column pr-0 pr-md-3 pb-3 pb-md-0">
+										<h4>Написать в службу поддержки:</h4>
+										<p>Пожалуйста загрузите цветной скан или фотокопию документов подтверждающую личность</p>
+									</div>
+									<button class="btn btn_red text-uppercase d-flex align-items-center text-uppercase mt-auto justify-content-center">отправить сообщение</button>
+								</div>
+							</div>
+							<div class="col-12 col-lg-9 col-md-8  order-1 order-md-2">
+								<div class="pl-0 pl-lg-3">
+									<div class="row">
+										<div class="col-12 col-sm-4 mb-3 mb-md-0">
+											<div class="form-group form_group">
+												<label for="f1">Имя</label>
+												<input type="text" class="form-control form_control" id="f1" placeholder="">
+											</div>
+											<div class="form-group form_group">
+												<label for="f2">E-mail</label>
+												<input type="email" class="form-control form_control" id="f2" placeholder="">
+											</div>
+											<div class="input_file">
+												<input type="file" name="file-1[]" id="file-1" class="inputfile inputfile-1" data-multiple-caption="{count} files selected" multiple />
+												<label for="file-1"><i class="icon icon_paper"></i> <span>Прикрепить файл</span></label>
+											</div>
+										</div>
+										<div class="col-12 col-sm-8">
+											<div class="form-group form_group">
+												<label for="f3">Тема</label>
+												<input type="text" class="form-control form_control" id="f3" placeholder="">
+											</div>
+											<div class="form-group form_group mb-0">
+												<label for="f3">Собщение</label>
+												<textarea name="" id="f4" cols="5" rows="4" class="form-control form_control"></textarea>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -99,6 +139,7 @@
 		<script src="js/jcf.js"></script>
 		<script src="js/jcf.select.js"></script>
 		<script src="js/simplebar.js"></script>
+		<script src="js/jquery.custom-file-input.js"></script>
 		<script src="js/main.js"></script>
 	</body>
 </html>

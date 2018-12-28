@@ -101,7 +101,7 @@ body { font: 15px/18px 'PFDinTextPro', sans-serif; color: #464646; background: #
 
 .jcf-focus, .jcf-focus * { border-color: #bbbbbb !important; -webkit-transition: all 0.3s ease; -o-transition: all 0.3s ease; transition: all 0.3s ease; background: none !important; }
 
-.btn_red { background: url(../images/red_btn.png) no-repeat; -webkit-background-size: content content; background-size: content; color: #fff; -webkit-box-shadow: none !important; box-shadow: none !important; font-size: 13px; font-weight: bold; -webkit-border-radius: 4px !important; border-radius: 4px !important; overflow: hidden; height: 35px; padding: 0 17px; border: 0; -webkit-transition: all 0.3s ease; -o-transition: all 0.3s ease; transition: all 0.3s ease; }
+.btn_red { background: url(../images/red_btn.png) no-repeat; -webkit-background-size: 100% 100%; background-size: 100% 100%; color: #fff; -webkit-box-shadow: none !important; box-shadow: none !important; font-size: 13px; font-weight: bold; -webkit-border-radius: 4px !important; border-radius: 4px !important; overflow: hidden; height: 35px; padding: 0 17px; border: 0; -webkit-transition: all 0.3s ease; -o-transition: all 0.3s ease; transition: all 0.3s ease; }
 
 .btn_red:hover { color: #fff; opacity: .8; }
 
@@ -162,6 +162,34 @@ h1.styled span:after { width: 105px; height: 2px; }
 .bg_panel { background: #faf9fa; -webkit-border-radius: 17px; border-radius: 17px; -webkit-box-shadow: 0 2px 10px 0px rgba(0, 0, 0, 0.11); box-shadow: 0 2px 10px 0px rgba(0, 0, 0, 0.11); }
 
 .text_black { color: #000 !important; }
+
+.form_group { margin-bottom: 27px; }
+
+.form_group label { font-size: 17px; color: #7a7777; margin: 0; font-weight: normal; padding-left: 10px; padding-bottom: 6px; }
+
+.form_control { border: 1px solid #a3a3a3; -webkit-border-radius: 9px; border-radius: 9px; -webkit-box-shadow: none !important; box-shadow: none !important; height: 46px; }
+
+textarea.form_control { height: 112px; }
+
+.inputfile + label { max-width: 100%; width: 100%; text-align: center; font-size: 13px; -o-text-overflow: ellipsis; text-overflow: ellipsis; white-space: nowrap; cursor: pointer; display: inline-block; overflow: hidden; padding: 0.625rem 10px; font-weight: 500; color: #000; background-color: #cac8c8; -webkit-border-radius: 5px; border-radius: 5px; -webkit-transition: all 0.3s ease; -o-transition: all 0.3s ease; transition: all 0.3s ease; margin: 0; height: 40px; }
+
+.inputfile + label i { display: inline-block; vertical-align: middle; font-size: 15px; margin-right: 5px; }
+
+.inputfile:focus + label, .inputfile.has-focus + label { outline: 1px dotted #000; outline: -webkit-focus-ring-color auto 5px; }
+
+.inputfile-1:focus + label, .inputfile-1.has-focus + label, .inputfile-1 + label:hover { background-color: #cd0146; color: #fff; }
+
+.input_file .inputfile { width: 0.1px; height: 0.1px; opacity: 0; overflow: hidden; position: absolute; z-index: -1; }
+
+.col_i_txt { border-right: 1px solid #d9d9d9; }
+
+@media (max-width: 767.98px) { .col_i_txt { border-right: 0 !important; } }
+
+.col_i_txt h4 { margin: 0; font-size: 17px; line-height: 19px; color: #313131; font-weight: bold; }
+
+.col_i_txt p { font-size: 15px; line-height: 20px; color: #464646; margin: 0; }
+
+@media (max-width: 991.98px) { .col_i_txt .btn { width: 100% !important; text-align: center; } }
 
 @font-face { font-family: "Icons"; src: url("../fonts/icons_custom/Icons.eot"); src: url("../fonts/icons_custom/Icons.eot?#iefix") format("eot"), url("../fonts/icons_custom/Icons.woff2") format("woff2"), url("../fonts/icons_custom/Icons.woff") format("woff"), url("../fonts/icons_custom/Icons.ttf") format("truetype"), url("../fonts/icons_custom/Icons.svg#Icons") format("svg"); }
 
@@ -492,6 +520,12 @@ p.lead { font-size: 17px; line-height: 20px; }
 .bg_white { background: #fff !important; }
 
 .row_course img { display: block; height: auto; border: 2px solid #cfcfcf; -webkit-border-radius: 11px; border-radius: 11px; }
+
+.hlp_column { -webkit-box-flex: 0; -webkit-flex: 0 0 100%; -ms-flex: 0 0 100%; flex: 0 0 100%; max-width: 100%; }
+
+.modal_dialog_custom .modal-xl { max-width: 1140px !important; width: 100% !important; padding-left: 10px; padding-right: 10px; }
+
+@media (max-width: 575.98px) { .modal_dialog_custom .modal-xl { background: #000; margin-left: 0; margin-right: 0; } }
 
 .modal_dialog_custom .modal-header { width: 100%; overflow: hidden; border-bottom: 0; }
 
