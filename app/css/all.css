@@ -9,7 +9,7 @@
 
 @font-face { font-family: "PFDinTextPro"; src: url("../fonts/PFDinTextPro-Medium.eot"); src: url("../fonts/PFDinTextPro-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/PFDinTextPro-Medium.woff2") format("woff2"), url("../fonts/PFDinTextPro-Medium.woff") format("woff"), url("../fonts/PFDinTextPro-Medium.ttf") format("truetype"), url("../fonts/PFDinTextPro-Medium.svg#PFDinTextPro-Medium") format("svg"); font-weight: 500; font-style: normal; }
 
-@font-face { font-family: "icomoon"; src: url("../fonts/icomoon/icomoon.ttf?m1g801") format("truetype"), url("../fonts/icomoon/icomoon.woff?m1g801") format("woff"), url("../fonts/icomoon/icomoon.svg?m1g801#icomoon") format("svg"); font-weight: normal; font-style: normal; }
+@font-face { font-family: "icomoon"; src: url("../fonts/icomoon/icomoon.ttf?ax9avo") format("truetype"), url("../fonts/icomoon/icomoon.woff?ax9avo") format("woff"), url("../fonts/icomoon/icomoon.svg?ax9avo#icomoon") format("svg"); font-weight: normal; font-style: normal; }
 
 .icon { /* use !important to prevent issues with browser extensions that change fonts */ font-family: "icomoon" !important; speak: none; font-style: normal; font-weight: normal; font-variant: normal; text-transform: none; line-height: 1; /* Better Font Rendering =========== */ -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
 
@@ -19,37 +19,53 @@
 
 .icon_checked:before { content: ""; }
 
-.icon_email:before { content: ""; }
+.icon_checked_2:before { content: ""; }
 
-.icon_facebook:before { content: ""; }
+.icon_download:before { content: ""; }
 
-.icon_ic_1:before { content: ""; color: #919293; }
+.icon_email:before { content: ""; }
 
-.icon_ic_2:before { content: ""; color: #919293; }
+.icon_facebook:before { content: ""; }
 
-.icon_ic_3:before { content: ""; color: #919293; }
+.icon_ic_1:before { content: ""; color: #919293; }
 
-.icon_ic_4:before { content: ""; color: #919293; }
+.icon_ic_2:before { content: ""; color: #919293; }
 
-.icon_ic_5:before { content: ""; color: #919293; }
+.icon_ic_3:before { content: ""; color: #919293; }
 
-.icon_ic_6:before { content: ""; color: #919293; }
+.icon_ic_4:before { content: ""; color: #919293; }
 
-.icon_ic_7:before { content: ""; color: #919293; }
+.icon_ic_5:before { content: ""; color: #919293; }
 
-.icon_ic_8:before { content: ""; color: #919293; }
+.icon_ic_6:before { content: ""; color: #919293; }
 
-.icon_ic_9:before { content: ""; color: #919293; }
+.icon_ic_7:before { content: ""; color: #919293; }
 
-.icon_ic_10:before { content: ""; color: #919293; }
+.icon_ic_8:before { content: ""; color: #919293; }
 
-.icon_ic_11:before { content: ""; color: #919293; }
+.icon_ic_9:before { content: ""; color: #919293; }
 
-.icon_instagram:before { content: ""; }
+.icon_ic_10:before { content: ""; color: #919293; }
 
-.icon_paper:before { content: ""; }
+.icon_ic_11:before { content: ""; color: #919293; }
 
-.icon_youtube:before { content: ""; }
+.icon_icon:before { content: ""; }
+
+.icon_instagram:before { content: ""; }
+
+.icon_linked:before { content: ""; }
+
+.icon_maps-and-flags:before { content: ""; }
+
+.icon_paper:before { content: ""; }
+
+.icon_passport-card:before { content: ""; }
+
+.icon_printer-printing-document:before { content: ""; }
+
+.icon_twitter:before { content: ""; }
+
+.icon_youtube:before { content: ""; }
 
 body { font: 15px/18px 'PFDinTextPro', sans-serif; color: #464646; background: #f3f1f2; min-width: 1024px; }
 
@@ -200,6 +216,8 @@ textarea.form_control { height: 112px; }
 .col_i_txt p { font-size: 15px; line-height: 20px; color: #464646; margin: 0; }
 
 @media (max-width: 991.98px) { .col_i_txt .btn { width: 100% !important; text-align: center; } }
+
+.text_status i { display: inline-block; vertical-align: middle; font-size: 25px; margin-right: 9px; }
 
 @font-face { font-family: "Icons"; src: url("../fonts/icons_custom/Icons.eot"); src: url("../fonts/icons_custom/Icons.eot?#iefix") format("eot"), url("../fonts/icons_custom/Icons.woff2") format("woff2"), url("../fonts/icons_custom/Icons.woff") format("woff"), url("../fonts/icons_custom/Icons.ttf") format("truetype"), url("../fonts/icons_custom/Icons.svg#Icons") format("svg"); }
 

@@ -3,9 +3,9 @@
 @font-face {
   font-family: '#{$icomoon-font-family}';
   src:
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?m1g801') format('truetype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?m1g801') format('woff'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?m1g801##{$icomoon-font-family}') format('svg');
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?ax9avo') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?ax9avo') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?ax9avo##{$icomoon-font-family}') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -38,6 +38,16 @@
 .icon_checked {
   &:before {
     content: $icon_checked; 
+  }
+}
+.icon_checked_2 {
+  &:before {
+    content: $icon_checked_2; 
+  }
+}
+.icon_download {
+  &:before {
+    content: $icon_download; 
   }
 }
 .icon_email {
@@ -116,14 +126,44 @@
     color: #919293;
   }
 }
+.icon_icon {
+  &:before {
+    content: $icon_icon; 
+  }
+}
 .icon_instagram {
   &:before {
     content: $icon_instagram; 
   }
 }
+.icon_linked {
+  &:before {
+    content: $icon_linked; 
+  }
+}
+.icon_maps-and-flags {
+  &:before {
+    content: $icon_maps-and-flags; 
+  }
+}
 .icon_paper {
   &:before {
     content: $icon_paper; 
+  }
+}
+.icon_passport-card {
+  &:before {
+    content: $icon_passport-card; 
+  }
+}
+.icon_printer-printing-document {
+  &:before {
+    content: $icon_printer-printing-document; 
+  }
+}
+.icon_twitter {
+  &:before {
+    content: $icon_twitter; 
   }
 }
 .icon_youtube {
