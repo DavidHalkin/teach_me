@@ -119,6 +119,10 @@ body { font: 15px/18px 'PFDinTextPro', sans-serif; color: #464646; background: #
 
 .list_styled { margin: 11px 0 0 0; padding: 0; list-style: none; }
 
+.list_styled.dots li { padding-left: 15px; font-size: 17px; line-height: 19px; }
+
+.list_styled.dots li:before { width: 5px; height: 5px; -webkit-border-radius: 50%; border-radius: 50%; }
+
 .list_styled strong { font-weight: 500; }
 
 .list_styled li { position: relative; padding-left: 28px; margin-bottom: 11px; font-size: 15px; line-height: 16px; color: #464646; }
@@ -478,5 +482,15 @@ p.lead { font-size: 17px; line-height: 20px; }
 .drop_case span { font-size: 13px; line-height: 17px; color: #313131; -webkit-box-flex: 0; -webkit-flex: 0 0 175px; -ms-flex: 0 0 175px; flex: 0 0 175px; max-width: 175px; }
 
 .drop_case strong { font-size: 13px; line-height: 17px; color: #a80451; font-weight: bold; -webkit-box-flex: 1; -webkit-flex: 1 1 auto; -ms-flex: 1 1 auto; flex: 1 1 auto; width: 1%; padding-left: 10px; }
+
+.main .section_about_us { overflow: visible; padding-left: 0; padding-right: 0; }
+
+.main_content_holder { overflow: hidden; }
+
+.text_red { color: #cd0146 !important; }
+
+.bg_white { background: #fff !important; }
+
+.row_course img { display: block; height: auto; border: 2px solid #cfcfcf; -webkit-border-radius: 11px; border-radius: 11px; }
 
 /*# sourceMappingURL=all.css.map */

@@ -558,3 +558,27 @@ p.lead{
 		padding-left: 10px;
 	}
 }
+.main{
+	.section_about_us{
+		overflow: visible;
+		padding-left: 0;
+		padding-right: 0;
+	}
+}
+.main_content_holder{
+	overflow: hidden;
+}
+.text_red{
+	color: #cd0146 !important;
+}
+.bg_white{
+	background: #fff !important;
+}
+.row_course{
+	img{
+		display: block;
+		height: auto;
+		border: 2px solid #cfcfcf;
+		border-radius: 11px;
+	}
+}
