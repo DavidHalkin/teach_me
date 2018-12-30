@@ -1,7 +1,6 @@
 $(document).ready(function(){
 
-   // add custom scroll
-   // $('.scroller_js').each(element, new SimpleBar);
+   
 
 	// add custom select
 	jcf.replaceAll();
