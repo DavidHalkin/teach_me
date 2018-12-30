@@ -3,9 +3,9 @@
 @font-face {
   font-family: '#{$icomoon-font-family}';
   src:
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?ax9avo') format('truetype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?ax9avo') format('woff'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?ax9avo##{$icomoon-font-family}') format('svg');
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?5o14na') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?5o14na') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?5o14na##{$icomoon-font-family}') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -62,68 +62,57 @@
 }
 .icon_ic_1 {
   &:before {
-    content: $icon_ic_1;     
-    color: #919293;
+    content: $icon_ic_1; 
   }
 }
 .icon_ic_2 {
   &:before {
-    content: $icon_ic_2;     
-    color: #919293;
+    content: $icon_ic_2; 
   }
 }
 .icon_ic_3 {
   &:before {
-    content: $icon_ic_3;     
-    color: #919293;
+    content: $icon_ic_3; 
   }
 }
 .icon_ic_4 {
   &:before {
-    content: $icon_ic_4;     
-    color: #919293;
+    content: $icon_ic_4; 
   }
 }
 .icon_ic_5 {
   &:before {
-    content: $icon_ic_5;     
-    color: #919293;
+    content: $icon_ic_5; 
   }
 }
 .icon_ic_6 {
   &:before {
-    content: $icon_ic_6;     
-    color: #919293;
+    content: $icon_ic_6; 
   }
 }
 .icon_ic_7 {
   &:before {
-    content: $icon_ic_7;     
-    color: #919293;
+    content: $icon_ic_7; 
   }
 }
 .icon_ic_8 {
   &:before {
-    content: $icon_ic_8;     
-    color: #919293;
+    content: $icon_ic_8; 
   }
 }
 .icon_ic_9 {
   &:before {
-    content: $icon_ic_9;     
-    color: #919293;
+    content: $icon_ic_9; 
   }
 }
 .icon_ic_10 {
   &:before {
-    content: $icon_ic_10;     
-    color: #919293;
+    content: $icon_ic_10; 
   }
 }
 .icon_ic_11 {
   &:before {
-    content: $icon_ic_11;     
-    color: #919293;
+    content: $icon_ic_11; 
   }
 }
 .icon_icon {
@@ -141,9 +130,9 @@
     content: $icon_linked; 
   }
 }
-.icon_maps-and-flags {
+.icon_maps {
   &:before {
-    content: $icon_maps-and-flags; 
+    content: $icon_maps; 
   }
 }
 .icon_paper {
@@ -151,19 +140,24 @@
     content: $icon_paper; 
   }
 }
-.icon_passport-card {
+.icon_passport {
   &:before {
-    content: $icon_passport-card; 
+    content: $icon_passport; 
   }
 }
-.icon_printer-printing-document {
+.icon_printer {
   &:before {
-    content: $icon_printer-printing-document; 
+    content: $icon_printer; 
   }
 }
 .icon_twitter {
   &:before {
     content: $icon_twitter; 
+  }
+}
+.icon_wallet {
+  &:before {
+    content: $icon_wallet; 
   }
 }
 .icon_youtube {
