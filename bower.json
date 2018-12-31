@@ -20,6 +20,7 @@
     "jcf": "^1.2.3",
     "owl.carousel": "^2.3.4",
     "simplebar": "^2.6.1",
-    "gray": "^1.6.0"
+    "gray": "^1.6.0",
+    "datatables.net-bs4": "^3.2.2"
   }
 }

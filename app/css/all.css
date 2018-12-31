@@ -257,6 +257,24 @@ textarea.form_control { height: 108px; }
 
 .group_calc .input-group-prepend .btn:focus, .group_calc .input-group-append .btn:focus { -webkit-box-shadow: none !important; box-shadow: none !important; }
 
+.dataTables_length, .dataTables_info { padding-left: 15px; }
+
+.dataTables_filter, .dataTables_paginate { padding-right: 15px; }
+
+.datatable_custom th { text-transform: uppercase; vertical-align: middle !important; font-weight: normal; font-size: 11px; line-height: 13px; color: rgba(49, 49, 49, 0.59); padding-right: 25px !important; border-bottom: 1px solid #d7d7d7 !important; }
+
+.datatable_custom th:before, .datatable_custom th:after { top: 50% !important; -webkit-transform: translateY(-50%); -ms-transform: translateY(-50%); transform: translateY(-50%); font-size: 13px; }
+
+.datatable_custom tbody tr:first-child td { border-top: 0 !important; }
+
+.datatable_custom tbody tr.active td { background: #f4f4f4; }
+
+.datatable_custom tbody tr.active td:first-child { position: relative; }
+
+.datatable_custom tbody tr.active td:first-child:before { content: ''; width: 4px; height: 100%; background: #ca0145; position: absolute; top: 0; left: 0; }
+
+.datatable_custom td { color: rgba(49, 49, 49, 0.9); font-size: 13px; line-height: 14px; padding-top: 11px; padding-bottom: 8px; }
+
 @font-face { font-family: "Icons"; src: url("../fonts/icons_custom/Icons.eot"); src: url("../fonts/icons_custom/Icons.eot?#iefix") format("eot"), url("../fonts/icons_custom/Icons.woff2") format("woff2"), url("../fonts/icons_custom/Icons.woff") format("woff"), url("../fonts/icons_custom/Icons.ttf") format("truetype"), url("../fonts/icons_custom/Icons.svg#Icons") format("svg"); }
 
 .icn-arr-right:before, .icn-f1:before, .icn-f2:before, .icn-f3:before, .icn-f4:before, .icn-f5:before, .icn-f6:before, .icn-f7:before, .icn-facebook:before, .icn-i1:before, .icn-i2:before, .icn-i3:before, .icn-linkedin:before, .icn-qoutes-1:before, .icn-qoutes-2:before, .icn-twitter:before, .icn-v:before, .icn-youtube:before { font-family: "Icons"; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; text-transform: none; line-height: 1; }
@@ -434,6 +452,8 @@ textarea.form_control { height: 108px; }
 .profile_nav_etc li:last-child { margin-top: 10px; }
 
 body, html { height: 100%; }
+
+.table_title { font-size: 17px; line-height: 20px; font-weight: bold; }
 
 .col_static_xl_center { position: relative; width: 100%; padding-right: 15px; padding-left: 15px; max-width: 1230px; }
 

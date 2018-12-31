@@ -74,6 +74,8 @@ gulp.task('scripts', function() {
 		'bower_components/jcf/dist/js/jcf.js',
 		'bower_components/simplebar/dist/simplebar.js',
 		'bower_components/gray/js/jquery.gray.min.js',
+		// 'bower_components/datatables.net-bs4/js/dataTables.bootstrap4.min.js',
+		// 'bower_components/datatables.net/js/jquery.dataTables.min.js',
 		'bower_components/jcf/dist/js/jcf.select.js'
 		])
 		// .pipe(concat('libs.min.js')) // Собираем их в кучу в новом файле libs.min.js
@@ -87,6 +89,7 @@ gulp.task('css-libs', ['sass'], function() {
 	return gulp.src([ // Берем все необходимые библиотеки
 		'bower_components/jcf/dist/css/theme-minimal/jcf.css',
 		'bower_components/gray/css/gray.min.css',
+		// 'bower_components/datatables.net-bs4/css/dataTables.bootstrap4.min.css',
 		'bower_components/simplebar/dist/simplebar.css'
 		])
 		.pipe(sourcemaps.init())

@@ -591,3 +591,59 @@ textarea.form_control{
 		}
 	}
 }
+.dataTables_length,.dataTables_info{
+	padding-left: 15px;
+}
+.dataTables_filter,.dataTables_paginate {
+	padding-right: 15px;
+}
+.datatable_custom{
+	th{
+		text-transform: uppercase;
+		vertical-align: middle !important;
+		font-weight: normal;
+		font-size: 11px;
+		line-height: 13px;
+		color: rgba(#313131,.59);
+		padding-right: 25px !important;
+		border-bottom: 1px solid #d7d7d7 !important;
+		&:before,&:after{
+			top: 50% !important;
+			transform:translateY(-50%);
+			font-size: 13px;
+		}
+	}
+	tbody{
+		tr{
+			&:first-child{
+				td{
+					border-top: 0 !important;
+				}
+			}
+			&.active{
+				td{
+					background: #f4f4f4;
+					&:first-child{
+						position: relative;
+						&:before{
+							content: '';
+							width: 4px;
+							height: 100%;
+							background: #ca0145;
+							position: absolute;
+							top: 0;
+							left: 0;
+						}
+					}
+				}
+			}
+		}
+	}
+	td{
+		color: rgba(#313131,.9);
+		font-size: 13px;
+		line-height: 14px;
+		padding-top: 11px;
+		padding-bottom: 8px;
+	}
+}
