@@ -545,6 +545,8 @@ p.lead{
 	border: 2px solid #a70451;
 	border-radius: 9px;
 	padding: 0 10px;
+	z-index: 100;
+	box-shadow: 0 0 21px 0px rgba(#8c7474,.35);
 	li{
 		border-top: 1px solid #d5d5d5;
 		padding: 11px 7px 12px;
@@ -765,5 +767,101 @@ p.lead{
 				text-decoration: underline;
 			}
 		}
+	}
+}
+.table_calc{
+	table-layout: fixed;
+	th{
+		width: 25%;
+		text-align: center;
+		font-size: 21px;
+		line-height: 22px;
+		color: #000;
+		font-weight: normal;
+		border-top: 0;
+		border-bottom: 2px solid #d5d9fa;
+		vertical-align: top !important;
+		padding-top: 17px;
+		padding-bottom: 6px;
+		@include media-breakpoint-down(lg){
+			font-size: 15px;
+			line-height: 16px;
+		}
+		&:first-child{
+			text-align: left;
+		}
+		i{
+			font-size: 22px;
+			color: #919292;
+			margin-right: 16px;
+			@include media-breakpoint-down(lg){
+				font-size: 15px;
+			}
+		}
+		span{
+			display: block;
+			font-size: 13px;
+			line-height: 14px;
+			color: #b3b2b2;
+		}
+	}
+	td{
+		vertical-align: middle !important;
+		text-align: center;
+		font-size: 21px;
+		line-height: 22px;
+		border-bottom: 1px solid #dadada;
+		padding-top: 16px;
+		padding-bottom: 12px;
+		@include media-breakpoint-down(lg){
+			font-size: 18px;
+			line-height: 19px;
+		}
+		span{
+			font-weight: 500;
+		}
+		&:first-child{
+			text-align: left;
+		}
+
+	}
+	tr{
+		&:last-child{
+			td{
+				border-bottom: 0;
+			}
+		}
+	}
+	.bg_gray_2{
+		background: #f8f8f8;
+	}
+	.group_calc{
+		max-width: 133px;
+		margin: 0 auto;
+	}
+}
+.table_total{
+	padding-top: 15px;
+	padding-bottom: 11px;
+	background: linear-gradient(to right, rgba(217,211,249,1) 0%,rgba(216,213,249,1) 22%,rgba(205,228,253,1) 78%,rgba(204,230,253,1) 100%);
+	strong{
+		display: inline-block;
+		vertical-align: middle;
+		font-size: 21px;
+		line-height: 22px;
+		color: #d10146;
+		font-weight: bold;
+		min-width: 25%;
+		text-align: center;
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+	span{
+		display: inline-block;
+		vertical-align: middle;
+		font-size: 21px;
+		line-height: 22px;
+		color: #000;
+		font-weight: normal;
 	}
 }
