@@ -217,6 +217,10 @@ select{
 		font-size: 12px;
 		line-height: 15px;
 	}
+	&.btn_big_max{
+		width: 100%;
+		max-width: 175px;
+	}
 	&:hover{
 		color: #fff;
 		opacity: .8;
@@ -708,6 +712,18 @@ textarea.form_control{
 	em{
 		display: block;
 	}
+	&.cost_info_big{
+		span{
+			font-size: 29px;
+			font-size: 24px;
+			line-height: 30px;
+		}
+		sup{
+			font-size: 17px;
+			font-size: 15px;
+			line-height: 18px;
+		}
+	}
 }
 .title_icon{
 	i{
@@ -749,4 +765,6 @@ textarea.form_control{
 }
 .i_box_txt{
 	padding-left: 10px;
+	flex: 1 1 auto;
+	width: 1%;
 }

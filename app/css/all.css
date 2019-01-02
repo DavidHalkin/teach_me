@@ -139,6 +139,8 @@ select { width: 100%; }
 
 .btn_red.btn_big { max-width: 100px; height: 48px; padding-left: 5px; padding-right: 5px; font-size: 12px; line-height: 15px; }
 
+.btn_red.btn_big_max { width: 100%; max-width: 175px; }
+
 .btn_red:hover { color: #fff; opacity: .8; }
 
 .btn_red_color { color: #bc0247; -webkit-box-shadow: none !important; box-shadow: none !important; font-weight: bold; font-size: 13px; }
@@ -305,6 +307,10 @@ textarea.form_control { height: 108px; }
 
 .cost_info em { display: block; }
 
+.cost_info.cost_info_big span { font-size: 29px; font-size: 24px; line-height: 30px; }
+
+.cost_info.cost_info_big sup { font-size: 17px; font-size: 15px; line-height: 18px; }
+
 .title_icon i { font-size: 34px; color: #575757; margin-right: 14px; }
 
 .title_icon span { color: #313131; font-weight: bold; font-size: 15px; line-height: 16px; }
@@ -321,7 +327,7 @@ textarea.form_control { height: 108px; }
 
 .i_box_img { -webkit-box-flex: 0; -webkit-flex: 0 0 45px; -ms-flex: 0 0 45px; flex: 0 0 45px; max-width: 45px; }
 
-.i_box_txt { padding-left: 10px; }
+.i_box_txt { padding-left: 10px; -webkit-box-flex: 1; -webkit-flex: 1 1 auto; -ms-flex: 1 1 auto; flex: 1 1 auto; width: 1%; }
 
 @font-face { font-family: "Icons"; src: url("../fonts/icons_custom/Icons.eot"); src: url("../fonts/icons_custom/Icons.eot?#iefix") format("eot"), url("../fonts/icons_custom/Icons.woff2") format("woff2"), url("../fonts/icons_custom/Icons.woff") format("woff"), url("../fonts/icons_custom/Icons.ttf") format("truetype"), url("../fonts/icons_custom/Icons.svg#Icons") format("svg"); }
 
