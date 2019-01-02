@@ -307,9 +307,9 @@ textarea.form_control { height: 108px; }
 
 .cost_info em { display: block; }
 
-.cost_info.cost_info_big span { font-size: 29px; font-size: 24px; line-height: 30px; }
+.cost_info.cost_info_big span { font-size: 29px; font-size: 20px; line-height: 30px; }
 
-.cost_info.cost_info_big sup { font-size: 17px; font-size: 15px; line-height: 18px; }
+.cost_info.cost_info_big sup { font-size: 17px; font-size: 11px; line-height: 18px; }
 
 .title_icon i { font-size: 34px; color: #575757; margin-right: 14px; }
 
