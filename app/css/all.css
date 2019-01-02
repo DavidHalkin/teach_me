@@ -301,6 +301,8 @@ textarea.form_control { height: 108px; }
 
 .datatable_custom td { color: rgba(49, 49, 49, 0.9); font-size: 13px; line-height: 14px; padding-top: 11px; padding-bottom: 8px; }
 
+.fz_17 { font-size: 17px; }
+
 .cost_info span { font-size: 17px; line-height: 18px; font-weight: bold; color: #d50046; }
 
 .cost_info sup, .cost_info em { font-size: 11px; line-height: 12px; color: rgba(49, 49, 49, 0.62); font-weight: bold; text-transform: uppercase; font-style: normal; }
@@ -325,9 +327,25 @@ textarea.form_control { height: 108px; }
 
 .list_cost em { font-style: normal; font-size: 15px; line-height: 16px; color: #313131; padding-right: 5px; }
 
+.text_gray { color: #313131 !important; }
+
 .i_box_img { -webkit-box-flex: 0; -webkit-flex: 0 0 45px; -ms-flex: 0 0 45px; flex: 0 0 45px; max-width: 45px; }
 
 .i_box_txt { padding-left: 10px; -webkit-box-flex: 1; -webkit-flex: 1 1 auto; -ms-flex: 1 1 auto; flex: 1 1 auto; width: 1%; }
+
+.user_info { font-size: 15px; line-height: 17px; color: rgba(49, 49, 49, 0.51); }
+
+.user_info li { padding-bottom: 6px; }
+
+.download_banner:hover { text-decoration: none; }
+
+.download_banner i, .download_banner span { display: inline-block; vertical-align: middle; }
+
+.download_banner i { font-size: 20px; color: #919191; }
+
+.download_banner span { color: #313131; font-weight: bold; font-size: 15px; line-height: 16px; }
+
+.col_banner_160 { -webkit-box-flex: 0; -webkit-flex: 0 0 190px; -ms-flex: 0 0 190px; flex: 0 0 190px; max-width: 190px; }
 
 @font-face { font-family: "Icons"; src: url("../fonts/icons_custom/Icons.eot"); src: url("../fonts/icons_custom/Icons.eot?#iefix") format("eot"), url("../fonts/icons_custom/Icons.woff2") format("woff2"), url("../fonts/icons_custom/Icons.woff") format("woff"), url("../fonts/icons_custom/Icons.ttf") format("truetype"), url("../fonts/icons_custom/Icons.svg#Icons") format("svg"); }
 

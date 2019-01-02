@@ -694,6 +694,9 @@ textarea.form_control{
 		padding-bottom: 8px;
 	}
 }
+.fz_17{
+	font-size: 17px;
+}
 .cost_info{
 	span{
 		font-size: 17px;
@@ -759,6 +762,9 @@ textarea.form_control{
 		padding-right: 5px;
 	}
 }
+.text_gray{
+	color: #313131 !important;
+}
 .i_box_img{
 	flex: 0 0 45px;
 	max-width: 45px;
@@ -767,4 +773,36 @@ textarea.form_control{
 	padding-left: 10px;
 	flex: 1 1 auto;
 	width: 1%;
+}
+.user_info{
+	font-size: 15px;
+	line-height: 17px;
+	color: rgba(#313131,.51);
+	// padding-top: 10px;
+	li{
+		padding-bottom: 6px;
+	}
+}
+.download_banner{
+	&:hover{
+		text-decoration: none;
+	}
+	i,span{
+		display: inline-block;
+		vertical-align: middle;
+	}
+	i{
+		font-size: 20px;
+		color: #919191;
+	}
+	span{
+		color: #313131;
+		font-weight: bold;
+		font-size: 15px;
+		line-height: 16px;
+	}
+}
+.col_banner_160{
+	flex: 0 0 190px;
+	max-width: 190px;
 }
