@@ -94,8 +94,8 @@
 													<p>Срок популярности курса – 3-5 лет</p>
 												</div>
 												<div class="col-5 pt-3 d-flex align-items-center justify-content-around">
-													<a href="#"><img src="images/ser_1.png" alt="" class="img-fluid"></a>
-													<a href="#"><img src="images/ser_1.png" alt="" class="img-fluid"></a>
+													<a href="lightbox.jpg" data-toggle="lightbox" data-title="A random title" data-footer="A custom footer text"><img src="images/ser_1.png" alt="" class="img-fluid"></a>
+													<a href="lightbox_2.jpg" data-toggle="lightbox" data-title="A random title2" data-footer="A custom footer text2"><img src="images/ser_1.png" alt="" class="img-fluid"></a>
 												</div>
 											</div>
 											<h2 class="text_red">Какие проблемы мы решаем?</h2>
@@ -181,6 +181,13 @@
 		<script src="js/jcf.js"></script>
 		<script src="js/jcf.select.js"></script>
 		<script src="js/simplebar.js"></script>
+		<script src="js/ekko-lightbox.min.js"></script>
 		<script src="js/main.js"></script>
+		<script>
+			$(document).on('click', '[data-toggle="lightbox"]', function(event) {
+                event.preventDefault();
+                $(this).ekkoLightbox();
+            });
+		</script>
 	</body>
 </html>
