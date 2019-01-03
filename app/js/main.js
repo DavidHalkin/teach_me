@@ -6,7 +6,11 @@ $(document).ready(function(){
 	jcf.replaceAll();
 	// add custom select  END
 
-
+$(".check_logo_js a").click(function(){
+        $(this).parent().addClass("active");
+        $(this).parent().siblings("li").removeClass("active");
+        return false;
+    });
 
 // drop
     $(".case_js").hover(function() {

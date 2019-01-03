@@ -875,3 +875,46 @@ p.lead{
 		font-weight: normal;
 	}
 }
+.user_title{
+	.u_t_img{
+		flex: 0 0 70px;
+		max-width: 70px;
+		img{
+			border-radius: 50%;
+		}
+	}
+	.u_t_txt{
+		font-size: 17px;
+		line-height: 20px;
+		color: #313131;
+		font-weight: bold;
+		padding-left: 20px;
+		flex: 1 1 auto;
+		width: 1%;
+	}
+}
+.user_list_p{
+	li{
+		padding-bottom: 12px;
+	}
+	span,strong{
+		
+		font-size: 13px;
+		line-height: 14px;
+		a{
+			color: #1678d3;
+		}
+	}
+	span{
+		color: #7a7a7a;
+		flex: 1 1 auto;
+		width: 1%;
+		padding-right: 10px;
+	}
+	strong{
+		color: #313131;
+		font-weight: normal;
+		flex: 0 0 110px;
+		max-width: 110px;
+	}
+}
