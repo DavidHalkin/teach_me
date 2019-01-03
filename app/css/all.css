@@ -953,4 +953,26 @@ p.lead.lead_big { color: #313131; font-size: 21px; line-height: 27px; }
 
 .user_list_p strong { color: #313131; font-weight: normal; -webkit-box-flex: 0; -webkit-flex: 0 0 110px; -ms-flex: 0 0 110px; flex: 0 0 110px; max-width: 110px; }
 
+.gray_bg { background: #ececec; border: 3px solid #e5e5e5; -webkit-border-radius: 5px; border-radius: 5px; }
+
+.gray_bg p { font-size: 15px; line-height: 22px; color: #464646; }
+
+.verification_block h3 { margin: 0; font-weight: bold; color: #313131; font-size: 17px; line-height: 20px; text-align: center; }
+
+.verification_block h4 { margin: 0; font-weight: 500; color: #cd0146; font-size: 15px; line-height: 20px; text-align: center; }
+
+.verification_block .circle { width: 120px; height: 120px; -webkit-box-flex: 0; -webkit-flex: 0 0 120px; -ms-flex: 0 0 120px; flex: 0 0 120px; max-width: 120px; margin: 10px auto; -webkit-border-radius: 50%; border-radius: 50%; background: #cd0146; }
+
+.verification_block .circle i { font-size: 75px; color: #fff; }
+
+.verification_block .col_120 { -webkit-box-flex: 0; -webkit-flex: 0 0 160px; -ms-flex: 0 0 160px; flex: 0 0 160px; max-width: 160px; }
+
+.verification_block .inputfile + label { height: 40px; background: #cac8c8; padding-top: 10px; }
+
+.verification_block .py_18 { padding-top: 18px; padding-bottom: 18px; }
+
+.verification_ok .circle { background: #28a745; }
+
+.verification_ok h4 { color: #28a745; }
+
 /*# sourceMappingURL=all.css.map */

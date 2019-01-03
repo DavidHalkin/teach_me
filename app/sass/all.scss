@@ -918,3 +918,67 @@ p.lead{
 		max-width: 110px;
 	}
 }
+.gray_bg{
+	background: #ececec;
+	border: 3px solid #e5e5e5;
+	border-radius: 5px;
+	p{
+		font-size: 15px;
+		line-height: 22px;
+		color: #464646;
+	}
+}
+.verification_block{
+	h3{
+		margin: 0;
+		font-weight: bold;
+		color: #313131;
+		font-size: 17px;
+		line-height: 20px;
+		text-align: center;
+	}
+	h4{
+		margin: 0;
+		font-weight: 500;
+		// color: #fc9090;
+		// color: #8d3030;
+		color: #cd0146;
+		font-size: 15px;
+		line-height: 20px;
+		text-align: center;
+	}
+	.circle{
+		width: 120px;
+		height: 120px;
+		flex: 0 0 120px;
+		max-width: 120px;
+		margin: 10px auto;
+		border-radius: 50%;
+		background: #cd0146;
+		i{
+			font-size: 75px;
+			color: #fff;
+		}
+	}
+	.col_120{
+		flex: 0 0 160px;
+		max-width: 160px;
+	}
+	.inputfile + label{
+		height: 40px;
+		background: #cac8c8;
+		padding-top: 10px;
+	}
+	.py_18{
+		padding-top: 18px;
+		padding-bottom: 18px;
+	}
+}
+.verification_ok{
+	.circle{
+		background: #28a745;
+	}
+	h4{
+		color: #28a745;
+	}
+}
