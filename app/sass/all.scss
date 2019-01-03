@@ -12,8 +12,8 @@ body,html{
 	height: 100%;
 }
 .table_title{
-	font-size: 17px;
-	line-height: 20px;
+	font-size: 20px;
+	line-height: 23px;
 	font-weight: bold;
 }
 .about_me_col{
@@ -186,7 +186,7 @@ body,html{
 		}
 	}
 	span{
-		font-weight: bold;
+		// font-weight: bold;
 		display: block;
 		font-size: 21px;
 		line-height: 22px;
@@ -379,12 +379,13 @@ body,html{
 		font-size: 38px;
 		line-height: 39px;
 		color: #1a1a18;
-		font-weight: bold;
+		// font-weight: bold;
+		font-weight: normal;
 	}
 	h2{
 		font-size: 30px;
 		line-height: 32px;
-		font-weight: bold;
+		// font-weight: bold;
 		color: #686867;
 		margin: 0;
 		padding-bottom: 25px;
@@ -784,8 +785,11 @@ p.lead{
 	th{
 		width: 25%;
 		text-align: center;
-		font-size: 21px;
-		line-height: 22px;
+		// font-size: 21px;
+		// line-height: 22px;
+
+		font-size: 19px;
+		line-height: 20px;
 		color: #000;
 		font-weight: normal;
 		border-top: 0;
@@ -818,11 +822,11 @@ p.lead{
 	td{
 		vertical-align: middle !important;
 		text-align: center;
-		font-size: 21px;
-		line-height: 22px;
+		font-size: 19px;
+		line-height: 20px;
 		border-bottom: 1px solid #dadada;
-		padding-top: 16px;
-		padding-bottom: 12px;
+		padding-top: 11px;
+		padding-bottom: 7px;
 		@include media-breakpoint-down(lg){
 			font-size: 18px;
 			line-height: 19px;
@@ -854,11 +858,13 @@ p.lead{
 	padding-top: 15px;
 	padding-bottom: 11px;
 	background: linear-gradient(to right, rgba(217,211,249,1) 0%,rgba(216,213,249,1) 22%,rgba(205,228,253,1) 78%,rgba(204,230,253,1) 100%);
+	strong,span{
+		font-size: 19px;
+		line-height: 20px;
+	}
 	strong{
 		display: inline-block;
 		vertical-align: middle;
-		font-size: 21px;
-		line-height: 22px;
 		color: #d10146;
 		font-weight: bold;
 		min-width: 25%;
@@ -869,8 +875,6 @@ p.lead{
 	span{
 		display: inline-block;
 		vertical-align: middle;
-		font-size: 21px;
-		line-height: 22px;
 		color: #000;
 		font-weight: normal;
 	}

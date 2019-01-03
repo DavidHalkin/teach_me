@@ -220,6 +220,9 @@ select{
 		font-size: 12px;
 		line-height: 15px;
 	}
+	&.fz_17{
+		font-size: 17px !important;
+	}
 	&.btn_big_max{
 		width: 100%;
 		max-width: 175px;
@@ -255,6 +258,7 @@ select{
 	color: #fff;
 	font-size: 19px;
 	line-height: 22px;
+	line-height: 19px;
 	font-weight: 900;
 	padding: 0 20px;
 	box-shadow: none !important;
@@ -300,7 +304,9 @@ select{
 		padding-left: 28px;
 		margin-bottom: 11px;
 		font-size: 15px;
+		font-size: 17px;
 		line-height: 16px;
+		line-height: 20px;
 		color: #464646;
 		&:before{
 			content: '';
@@ -319,7 +325,8 @@ h2.styled,h1.styled{
 	font-size: 35px;
 	line-height: 37px;
 	color: #191919;
-	font-weight: bold;
+	// font-weight: bold;
+	font-weight: normal;
 	span{
 		display: inline-block;
 		position: relative;
@@ -578,21 +585,13 @@ textarea.form_control{
 		}
 		.case_cost{
 			h3{
-				font-size: 19px;
-				line-height: 20px;
-				@include media-breakpoint-down(lg){
-					font-size: 17px;
-					line-height: 19px;
-				}
+				font-size: 17px;
+				line-height: 19px;
 			}
 			h4{
-				font-size: 20px;
-				line-height: 23px;
+				font-size: 19px;
+				line-height: 18px;
 				margin-top: 5px;
-				@include media-breakpoint-down(lg){
-					font-size: 19px;
-					line-height: 18px;
-				}
 			}
 		}
 	}
@@ -648,9 +647,15 @@ textarea.form_control{
 }
 .dataTables_length,.dataTables_info{
 	padding-left: 15px;
+	label{
+		font-weight: bold !important;
+	}
 }
 .dataTables_filter,.dataTables_paginate {
 	padding-right: 15px;
+	label{
+		font-weight: bold !important;
+	}
 }
 .a_m_img{
 	flex: 0 0 70px;
@@ -697,6 +702,7 @@ textarea.form_control{
 		color: rgba(#313131,.59);
 		padding-right: 25px !important;
 		border-bottom: 1px solid #d7d7d7 !important;
+		color: #000 !important;
 		&:before,&:after{
 			top: 50% !important;
 			transform:translateY(-50%);
@@ -1051,5 +1057,10 @@ textarea.form_control{
 				opacity: 1;
 			}
 		}
+	}
+}
+.modal-header{
+	.close,*{
+		outline: none !important;
 	}
 }
