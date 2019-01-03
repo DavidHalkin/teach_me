@@ -807,9 +807,9 @@ p.lead.lead_big { color: #313131; font-size: 21px; line-height: 27px; }
 
 .row_cases .col-4:nth-child(3n+3) .case_box.opened .drop_case { left: auto; right: 85%; }
 
-.case_box { width: 85%; }
+.case_box { width: 85%; position: relative; }
 
-.case_box.opened .drop_case { left: 50%; display: block; }
+.case_box.opened .drop_case { left: 50%; display: block; top: -50px !important; }
 
 .case_box .case_prev { -webkit-box-flex: 0; -webkit-flex: 0 0 160px; -ms-flex: 0 0 160px; flex: 0 0 160px; max-width: 160px; cursor: pointer; }
 

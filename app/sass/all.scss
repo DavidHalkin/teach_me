@@ -511,11 +511,13 @@ p.lead{
 }
 .case_box{
 	width: 85%;
+	position: relative;
+	// z-index: 1;
 	&.opened{
 		.drop_case{
 			left: 50%;
 			display: block;
-			
+			top: -50px !important;
 		}
 	}
 	.case_prev{
